@@ -22,7 +22,7 @@ function sumOfNumbers(arrayOfNumbers) {
 }
 
 let arrayOfNumbers = [1,2,3,4,5,6,7,8,9,]
-let tatalSum= sumOfNumbers(arrayOfNumbers)
+let totalSum= sumOfNumbers(arrayOfNumbers)
 console.log(totalSum)
 
 // assignment.sumOfNumbers = sumOfNumbers;
@@ -37,23 +37,17 @@ console.log(totalSum)
  * @returns number the count of even numbers
  */
 
-let arr= [1,2,3,4,5,6,7,8,9]
 
 function countEvenNumbers(arrayOfNumbers){
   let countEven =0; 
   for (let i= 0; i< arrayOfNumbers.length; i++){
   
     if (arrayOfNumbers[i] %2 === 0) {countEven++;
-      
-    };
-    };
-  console.log('the count of even numbers in the given arrays is  {countEven}')
+     }
+    }
+        return evenNumbers;
 }
-
-countEvenNumbers(arr)
   
-  return arrayOfNumbers.length;
-}
 // assignment.countEvenNumbers = countEvenNumbers;
 
 /**
